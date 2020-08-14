@@ -1,0 +1,15 @@
+body {
+  height: 100vh;
+  background: url(images/bg-image.jpg) no-repeat;
+  background-size: cover;
+}
+.degree-section {
+  cursor: pointer;
+}
+.degree-section span {
+  margin: 10px;
+  font-size: 30px;
+}
+.degree-section h2 {
+  font-size: 40px;
+}

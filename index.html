@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather</title>
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    />
+    <!-- custom css -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body class="text-white text-center">
+    <form class="col-md-6 m-auto py-5">
+      <div class="input-group mb-3">
+        <input
+          type="text"
+          class="form-control"
+          placeholder="Enter a location for Weather ..."
+        />
+        <div class="input-group-append">
+          <button type="button" class="btn btn-danger">Search</button>
+        </div>
+      </div>
+    </form>
+    <div class="location">
+      <canvas class="icon" width="128" height="128"></canvas>
+      <h1 class="location-timezone">Timezone</h1>
+    </div>
+    <div class="temperature">
+      <div class="degree-section d-flex justify-content-center align-items-center">
+        <h2 class="temperature-degree">34</h2>
+        <span>F</span>
+      </div>
+      <div class="temperature-description">Its Friggin Cold</div>
+    </div>
+    <script src="skycons.js"></script>
+    <script src="app.js"></script>
+  </body>
+</html>
